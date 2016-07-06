@@ -126,6 +126,7 @@ footer .copyright {
   top: -8px;
   margin-right: 20px;
   font-size: .6em;
+  text-align: center;
 }
 
 footer ul {
@@ -138,10 +139,12 @@ footer ul li {
   display: inline-block;
 }
 
+
+
 a.social {
   display: inline-block;
   text-indent: -9999px;
-  margin-left: 5px;
+  margin-left: 10px;
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
@@ -203,6 +206,10 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  p{
+    text-align: justify;
   }
 
 }
